@@ -10,7 +10,7 @@ export default function LoginForm(){
                <input className={styles.input} name="username" id="username" type="text"/>
                <label className={styles.label} for="password">Password</label>
                <input className={styles.input} name="password" id="password" type="password"/>
-               <input className={styles.submit} type="submit" value="Submit"/>
+               <button className={styles.submit} type="submit" >Submit</button>
            </form>
     )
 }
